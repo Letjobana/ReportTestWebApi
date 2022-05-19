@@ -10,5 +10,6 @@ namespace ReportTestWebApi.Models
         public string Database { get; set; }
         public string GroupFilter { get; set; }
         public API API => new API(Username, null, SessionId, Database, Server);
+       
     }
 }
