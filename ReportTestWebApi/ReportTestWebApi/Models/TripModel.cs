@@ -2,7 +2,7 @@
 
 namespace ReportTestWebApi.Models
 {
-    public class Trip
+    public class TripModel
     {
         public string DeviceDesc { get; set; }
         public string From { get; set; }
